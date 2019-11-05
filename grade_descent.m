@@ -1,4 +1,4 @@
-function [w, iterations, e]=Question3( eta, error, epochs)
+function [w, iterations, e]=grade_descent( eta, error, epochs)
 A = dlmread('hayes-roth.data');
 [r, c]=size(A);
 A(:,1)=[];
